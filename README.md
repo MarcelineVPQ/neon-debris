@@ -1,6 +1,6 @@
 # Neon Debris
 
-**Neon Debris** is a cyberpunk auto-battler roguelike where you build a squad of operatives, specialize their stats, position them on a station deck, and survive escalating fights across a dying orbital world.
+**Neon Debris** is a cyberpunk auto-battler roguelike where you build a squad of unstable operatives, outfit them with upgrades and implants, position them on a station deck, and try to survive escalating fights across a dying orbital world.
 
 Built by **42 Pixel Studios**.
 
@@ -14,103 +14,162 @@ Built by **42 Pixel Studios**.
 
 ---
 
-## Early Alpha / Early Access
+## Early Alpha / Early Access Style Release
 
-Neon Debris is in **active early development**. This public page works like an early access storefront — the core game is playable and major systems are live. Balance, progression, and polish evolve with every update.
+Neon Debris is in **active early development**.
+
+This public page is meant to work like an **early release storefront**:
+
+- the core combat loop is playable
+- major systems are already in the game
+- balance, progression, polish, and presentation are still evolving fast
+
+Expect frequent changes, tuning passes, UI updates, and new systems landing as the project grows.
 
 ---
 
 ## The Pitch
 
-Recruit a crew of cyberpunk operatives, survive brutal auto-battles on a drifting station, and push your build farther each run through class specialization, upgrades, synergies, and long-term progression.
+Recruit a crew of cyberpunk operatives, survive brutal auto-battles on a drifting station, and push your build farther each run through upgrades, synergies, commander bonuses, and long-term progression.
 
-If you like **Teamfight Tactics**, **Super Auto Pets**, or **squad-based strategy roguelikes** — this is for you.
+If you like games such as:
+
+- **Teamfight Tactics**
+- **Super Auto Pets**
+- **Backpack / buildcraft roguelikes**
+- **squad-based strategy with strong progression loops**
+
+this is the lane Neon Debris is aiming for.
 
 ---
 
-## What You Do
+## What You Do In The Game
 
-1. **Hire operatives** from the shop and position them on the station deck
-2. **Specialize your squad** — each class has primary and secondary stats that upgrade faster (+50% / +25%)
-3. **Invest in stats** — stat purchases now contribute XP toward leveling, creating a second progression path alongside merging
-4. **Fight auto-battles** where positioning, range, abilities, and targeting all matter
-5. **Navigate a roguelike map** with battles, elites, bosses, markets, treasure, and events
-6. **Earn permanent progression** through Datakeys, commander mastery, and unlockable content
+1. **Start a run** and build your team from an empty board.
+2. **Hire operatives** from the shop and position them on the station deck.
+3. **Buy upgrades, reroll, merge duplicates, and scale your squad** over time.
+4. **Fight auto-battles** where movement, range, energy, abilities, and targeting all matter.
+5. **Navigate a roguelike map** with battles, elites, bosses, markets, treasure, and events.
+6. **Earn permanent progression** through Datakeys, commander mastery, unlocks, and challenge systems.
 
 ---
 
 ## Current Features
 
-### Class Specialization (NEW in v0.41.0)
-
-Every operative class has a **primary** and **secondary** stat that upgrades at a boosted rate. Investing in your class identity sharpens it over time — a Riot Frame that stacks armor becomes a wall, a Ghost that stacks crit becomes a surgical assassin.
-
-| Class | Tier | Cost | Role | Primary (+50%) | Secondary (+25%) |
-|-------|:----:|:----:|------|:---------------|:----------------|
-| Street Samurai | T1 | 1c | Melee DPS | Damage | APS |
-| Medtech | T1 | 1c | Support | Energy | Abl Range |
-| Riot Frame | T2 | 2c | Frontline | Armor | HP |
-| Ghost | T2 | 2c | Assassin | Crit | Evasion |
-| Psion | T2 | 2c | Caster | Damage | Energy |
-| Chemist | T3 | 3c | AoE Support | Skill Proc | Damage |
-| Enforcer | T3 | 3c | Tank Support | Armor | HP |
-| Railgun Sniper | T3 | 3c | Ranged DPS | Damage | Range |
-| Drone Rigger | T4 | 4c | Summoner | Energy | Armor |
-
-### Economy
-
-| Mechanic | Value |
-|----------|-------|
-| Starting credits | 12c |
-| Base income | 7c/round (scales after round 8) |
-| Op Dock slots | 10 max, fixed costs: Free, Free, 8, 10, 12, 15, 18, 22, 27, 33 |
-| Every operative | = 1 slot regardless of tier |
-| Stat upgrades | Escalating cost (Normal: 1c base, Premium: 2c base) |
-| Stat purchases grant XP | ~11-16 purchases = 1 level |
-
-### Auto-Battler Combat
+### Cyberpunk Auto-Battler Combat
 
 - Real-time movement with tick-based attacks and ability timing
-- Positioning matters: range, frontline pressure, support placement
-- Speed controls (0.5x / 1x / 2x / 4x) and pause during battles
-- Combat juice: hitstop, screen shake, crit flash, vignette, death animations
-- 10 shader-driven effects: poison, corrosive, heal, shield, psi, electric, and more
+- Positioning matters: range, frontline pressure, support placement, and threat access
+- Speed controls for fast iteration during battles
+- Shader-driven combat feedback, death animations, blood splatter, shields, poison, psi effects, and more
 
 ### 10 Operative Classes
 
-Each operative spawns with a random callsign and one of 3 ability variants. Merging duplicates grants XP and stat boosts. Max level 7.
+Each operative spawns with a **random callsign** and one of several **ability variants**, helping runs feel less static.
 
-### Roguelike Map Mode (3 Acts)
+- Psion
+- Medtech
+- Street Samurai
+- Riot Frame
+- Railgun Sniper
+- Chemist
+- Ghost
+- Drone Rigger
+- Enforcer
+- Combat Drone
 
-Branching node map across Lower Decks, Mid Ring, and Command Deck:
-- Standard fights, elite encounters, sector bosses
-- Black markets, rest stops, treasure caches, unknown events
-- NPC contacts with tiered relationship rewards
-- Network Tap scouting for combat intel
+### Run-Building Systems
 
-### Ranked PvP
+- duplicate merging and XP-based leveling
+- stat growth through upgrades
+- synergy activation through squad composition
+- implant-based passive bonuses
+- economy choices around rerolls, saving, and power spikes
 
-Fight real player squads via Nakama backend with ELO matchmaking:
-- **Round-matched** — face opponents at the same round as you
-- **Mirror-match foundation** — lock one opponent and face their replay round-by-round
-- 50+ AI opponents across all skill levels
+### Roguelike Map Mode
 
-### Meta-Progression (The Cortex)
+The main single-player structure is a branching run across multiple acts with:
 
-- **Datakeys** — earned every run, spent on permanent upgrades
-- **12 Firmware upgrades** — starting credits, lives, quarters, rerolls, HP, and more
-- **4 Operative Dossiers** — unlock additional classes
-- **16 Augment Blueprints** — new implants added to the pool
-- **9 Threat Protocols** — voluntary difficulty modifiers with Datakey multipliers
-- **6 Commander Backgrounds** — unique perks with 10-level mastery track
-- **35 Achievements** — bronze / silver / gold / platinum
-- **20 Player Titles** — unique unlock conditions
+- standard fights
+- elite encounters
+- bosses
+- black markets
+- treasure/data caches
+- unknown event nodes
+- scouting and risk/reward decisions
 
-### Op Dock HUD
+### Meta-Progression
 
-Two-state squad management bar:
-- **Compact mode** (prep phase): 44px portraits above the shop, click to buy slots
-- **Full mode** (battle): 76x140px cards with HP/DPS/Armor/Energy/Fatigue bars, battle controls, bench row
+Across runs, you build long-term power and unlock more options through **The Cortex**:
+
+- Datakeys
+- firmware upgrades
+- operative dossier unlocks
+- augment blueprints
+- threat protocols
+- commander mastery
+- titles, achievements, and profile progression
+
+### Ranked PvP Framework
+
+Neon Debris also includes a ranked PvP direction built around fighting **real player squads / ghost boards** through a Nakama backend.
+
+This side of the game is still actively being tuned and improved.
+
+---
+
+## Why Play Now
+
+If you enjoy getting into games early and watching them sharpen over time, Neon Debris already has:
+
+- a strong theme and identity
+- a playable core combat loop
+- meaningful build decisions
+- persistent progression hooks
+- a lot of room for theorycrafting and future expansion
+
+This is a good time to jump in if you like:
+
+- discovering systems before they are fully solved
+- giving feedback on balance and readability
+- watching a strategy game take shape in public
+
+---
+
+## Current State Of The Project
+
+### In Right Now
+
+- playable combat loop
+- roguelike map runs
+- multi-profile saves
+- commander system
+- meta-progression
+- daily run support
+- ranked PvP foundation
+- extensive UI, audio, and visual iteration
+
+### Still Evolving
+
+- balance
+- readability and onboarding
+- matchmaking quality
+- progression pacing
+- public-facing presentation
+- feature prioritization between demo, PvP, and full single-player vision
+
+---
+
+## Roadmap Direction
+
+The exact roadmap will move as the project evolves, but current direction includes:
+
+- deeper single-player progression
+- stronger public/demo presentation
+- more polished PvP matchmaking
+- better onboarding and menu UX
+- more content, encounters, and progression hooks
+- continued combat feel and readability improvements
 
 ---
 
@@ -125,6 +184,14 @@ Two-state squad management bar:
 
 **Early alpha. Actively in development.**
 
-Download the latest build:
+Neon Debris is not “finished” and is not pretending to be. The goal right now is to keep pushing toward a distinctive, replayable cyberpunk strategy game with a strong progression loop and a clear identity.
+
+---
+
+## Follow Development
+
+The best place to track updates right now is the release feed and changelog on this GitHub page.
+
+Download the latest build here:
 
 **[Latest Release](https://github.com/MarcelineVPQ/neon-debris/releases/latest)**
