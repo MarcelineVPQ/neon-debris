@@ -1,23 +1,23 @@
 {
-  "version": "v0.51.1-alpha",
-  "title": "The Opponent's Bench Is Real",
+  "version": "v0.51.2-alpha",
+  "title": "Your Cortex Works Now",
   "released": "2026-07-19",
-  "notes_url": "https://github.com/MarcelineVPQ/neon-debris/releases/tag/v0.51.1-alpha",
+  "notes_url": "https://github.com/MarcelineVPQ/neon-debris/releases/tag/v0.51.2-alpha",
   "platforms": {
     "windows": {
-      "url": "https://github.com/MarcelineVPQ/neon-debris/releases/download/v0.51.1-alpha/NeonDebris_v0.51.1-alpha-demo_Windows.exe",
-      "sha256": "4b2a79d5b10d8c0ec1dc2c42225e1b91b160bc20ec32f28d839c00066410209b",
-      "size": 340018040
+      "url": "https://github.com/MarcelineVPQ/neon-debris/releases/download/v0.51.2-alpha/NeonDebris_v0.51.2-alpha-demo_Windows.exe",
+      "sha256": "7815fe457f4bdd9ff9e66656dc1db47054a1c9c4177b3017d74a754adbb5bbe8",
+      "size": 340026184
     },
     "linux": {
-      "url": "https://github.com/MarcelineVPQ/neon-debris/releases/download/v0.51.1-alpha/NeonDebris_v0.51.1-alpha-demo_Linux.x86_64",
-      "sha256": "572056884c9276d3771c952b8c607abd6c26e8d80a1e8773e3888b0360cf195c",
-      "size": 304377512
+      "url": "https://github.com/MarcelineVPQ/neon-debris/releases/download/v0.51.2-alpha/NeonDebris_v0.51.2-alpha-demo_Linux.x86_64",
+      "sha256": "9b5cd11aff0dbb26a83cd4e3584261d2fd6bd12ef8f78b4b0936392f692c3399",
+      "size": 304385656
     },
     "macos": {
-      "url": "https://github.com/MarcelineVPQ/neon-debris/releases/download/v0.51.1-alpha/NeonDebris_v0.51.1-alpha-demo_macOS.zip",
-      "sha256": "f97e56f3fe38521054607757c301e0489507ef14b0a90f17e4c3a5e66770a606",
-      "size": 279521048
+      "url": "https://github.com/MarcelineVPQ/neon-debris/releases/download/v0.51.2-alpha/NeonDebris_v0.51.2-alpha-demo_macOS.zip",
+      "sha256": "bb8423c734996c088c873535ecbdaaef1c453ba10b4b86db8c5357b996a37c61",
+      "size": 279527312
     }
   }
 }
