@@ -1,23 +1,23 @@
 {
-  "version": "v0.51.0-alpha",
-  "title": "The Game Updates Itself",
+  "version": "v0.51.1-alpha",
+  "title": "The Opponent's Bench Is Real",
   "released": "2026-07-19",
-  "notes_url": "https://github.com/MarcelineVPQ/neon-debris/releases/tag/v0.51.0-alpha",
+  "notes_url": "https://github.com/MarcelineVPQ/neon-debris/releases/tag/v0.51.1-alpha",
   "platforms": {
     "windows": {
-      "url": "https://github.com/MarcelineVPQ/neon-debris/releases/download/v0.51.0-alpha/NeonDebris_v0.51.0-alpha-demo_Windows.exe",
-      "sha256": "28bf1d058bbbf3530a27a4a06d54767cb71320f307bca8ed16692a6935d49217",
-      "size": 340013736
+      "url": "https://github.com/MarcelineVPQ/neon-debris/releases/download/v0.51.1-alpha/NeonDebris_v0.51.1-alpha-demo_Windows.exe",
+      "sha256": "4b2a79d5b10d8c0ec1dc2c42225e1b91b160bc20ec32f28d839c00066410209b",
+      "size": 340018040
     },
     "linux": {
-      "url": "https://github.com/MarcelineVPQ/neon-debris/releases/download/v0.51.0-alpha/NeonDebris_v0.51.0-alpha-demo_Linux.x86_64",
-      "sha256": "a9988613428997f290f2f75666aed9c7b7acec54fec125c66dfe84195325ebb6",
-      "size": 304373208
+      "url": "https://github.com/MarcelineVPQ/neon-debris/releases/download/v0.51.1-alpha/NeonDebris_v0.51.1-alpha-demo_Linux.x86_64",
+      "sha256": "572056884c9276d3771c952b8c607abd6c26e8d80a1e8773e3888b0360cf195c",
+      "size": 304377512
     },
     "macos": {
-      "url": "https://github.com/MarcelineVPQ/neon-debris/releases/download/v0.51.0-alpha/NeonDebris_v0.51.0-alpha-demo_macOS.zip",
-      "sha256": "a0b13fa4f5097382ddb06e1bf609ffa470ae3a5e609a2acff38e123e1d6c960d",
-      "size": 279517767
+      "url": "https://github.com/MarcelineVPQ/neon-debris/releases/download/v0.51.1-alpha/NeonDebris_v0.51.1-alpha-demo_macOS.zip",
+      "sha256": "f97e56f3fe38521054607757c301e0489507ef14b0a90f17e4c3a5e66770a606",
+      "size": 279521048
     }
   }
 }
