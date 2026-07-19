@@ -1,23 +1,23 @@
 {
-  "version": "v0.46.0-alpha",
-  "title": "Branding & Docs Refresh",
-  "released": "2026-05-06",
-  "notes_url": "https://github.com/MarcelineVPQ/neon-debris/releases/tag/v0.46.0-alpha",
+  "version": "v0.51.0-alpha",
+  "title": "The Game Updates Itself",
+  "released": "2026-07-19",
+  "notes_url": "https://github.com/MarcelineVPQ/neon-debris/releases/tag/v0.51.0-alpha",
   "platforms": {
     "windows": {
-      "url": "https://github.com/MarcelineVPQ/neon-debris/releases/download/v0.46.0-alpha/NeonDebris_v0.46.0-alpha-demo_Windows.exe",
-      "sha256": "ffcd86d5820b02a1ed4e9264a8079c7a09fc61356012d99039c9bdbeccdb2348",
-      "size": 362883656
+      "url": "https://github.com/MarcelineVPQ/neon-debris/releases/download/v0.51.0-alpha/NeonDebris_v0.51.0-alpha-demo_Windows.exe",
+      "sha256": "28bf1d058bbbf3530a27a4a06d54767cb71320f307bca8ed16692a6935d49217",
+      "size": 340013736
     },
     "linux": {
-      "url": "https://github.com/MarcelineVPQ/neon-debris/releases/download/v0.46.0-alpha/NeonDebris_v0.46.0-alpha-demo_Linux.x86_64",
-      "sha256": "ffebaab677ace32d5378c0504ccca2d0bd801a5ff1afff3ac9889a5f014b8bce",
-      "size": 329388632
+      "url": "https://github.com/MarcelineVPQ/neon-debris/releases/download/v0.51.0-alpha/NeonDebris_v0.51.0-alpha-demo_Linux.x86_64",
+      "sha256": "a9988613428997f290f2f75666aed9c7b7acec54fec125c66dfe84195325ebb6",
+      "size": 304373208
     },
     "macos": {
-      "url": "https://github.com/MarcelineVPQ/neon-debris/releases/download/v0.46.0-alpha/NeonDebris_v0.46.0-alpha-demo_macOS.zip",
-      "sha256": "107c25dc085c45c85fc7071701dcf2f937cb0e39198ec836b7b17e25eb14699d",
-      "size": 305460760
+      "url": "https://github.com/MarcelineVPQ/neon-debris/releases/download/v0.51.0-alpha/NeonDebris_v0.51.0-alpha-demo_macOS.zip",
+      "sha256": "a0b13fa4f5097382ddb06e1bf609ffa470ae3a5e609a2acff38e123e1d6c960d",
+      "size": 279517767
     }
   }
 }
