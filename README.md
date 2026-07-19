@@ -27,7 +27,11 @@ Neon Debris is in **active early development**. This page works like an early-ac
 - balance, polish, and presentation are still moving fast
 - patch notes, leaderboards, and feature requests are all wired into the Discord
 
-Expect frequent updates, tuning passes, UI refinements, and new systems landing as the project grows. The build's main menu carries a "demo update available" banner so you'll always know when a fresh release is out.
+Expect frequent updates, tuning passes, UI refinements, and new systems landing as the project grows.
+
+**The game updates itself.** When a new build is out, the main menu says so and offers to install it — it downloads, checks the file against a published checksum, replaces itself and restarts. You never have to come back here and re-download by hand. (macOS still needs a manual download for now, because the mac build is unsigned.)
+
+This matters more than it sounds: ranked matchmaking only pairs players on the **same** version, so an out-of-date build quietly finds no opponents at all. The menu tells you when that's why.
 
 > ### A Note on the Art
 >
